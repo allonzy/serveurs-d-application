@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+/mnt/Donnees_itinerantes/Mes documents/architectures distribuees/serveurs d'application/.metadata/.plugins/org.eclipse.jdt.core
+3228478654.index
+3525260285.index
+446405806.index

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE web-app 
+	PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+	"http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+	<servlet>
+		<servlet-name>HelloWorld</servlet-name>
+		<servlet-class>HelloWorldServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Salute</servlet-name>
+		<servlet-class>SaluteServlet</servlet-class>
+		<init-param>
+			<param-name>name</param-name>
+			<param-value>missingNo</param-value>
+		</init-param>
+	</servlet>
+	<servlet>
+		<servlet-name>Registration</servlet-name>
+		<servlet-class>RegistrationServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>HelloWorld</servlet-name>
+		<url-pattern>/HelloWorld.html</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Salute</servlet-name>
+		<url-pattern>/Salute</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Registration</servlet-name>
+		<url-pattern>/Register</url-pattern>
+	</servlet-mapping>
+</web-app>

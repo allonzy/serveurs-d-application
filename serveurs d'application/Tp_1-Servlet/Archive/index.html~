@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE web-app PUBLIC '-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN' 'http://java.sun.com/dtd/web-app_2_3.dtd'>
+
+<web-app>
+	<!----------------------------Servlet--------------------->
+	<servlet></servlet>
+	<!--
+	<servlet>
+		<servlet-name>NomDuComposant</servlet-name>
+		<servlet-class>NomDeLaClasse</servlet-class>
+	</servlet>
+	-->
+	<!----------------------------MAPPING--------------------->
+	<!--
+		<servlet-name>NomDuComposant</servlet-name>
+		<url-pattern>RoutePattern.html</url-pattern>
+	-->
+</web-app>

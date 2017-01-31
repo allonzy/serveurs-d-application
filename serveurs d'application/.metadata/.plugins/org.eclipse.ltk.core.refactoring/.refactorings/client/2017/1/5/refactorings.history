@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;client.ClienthelloWorld&apos; to &apos;ClientHelloWorld&apos;&#x0A;- Original project: &apos;client&apos;&#x0A;- Original element: &apos;client.ClienthelloWorld&apos;&#x0A;- Renamed element: &apos;client.ClientHelloWorld&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ClienthelloWorld&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;client{ClienthelloWorld.java[ClienthelloWorld" matchStrategy="1" name="ClientHelloWorld" qualified="false" references="true" similarDeclarations="false" stamp="1485876034990" textual="false" version="1.0"/>
+</session>

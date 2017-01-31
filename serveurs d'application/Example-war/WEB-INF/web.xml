@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DOC ...>
+
+<web-app>
+	<!----------------------------Servlet--------------------->
+	<!--
+	<servlet>
+		<servlet-name>NomDuComposant</servlet-name>
+		<servlet-class>NomDeLaClasse</servlet-class>
+	</servlet>
+	-->
+	<!----------------------------MAPPING--------------------->
+	<!--
+		<servlet-name>NomDuComposant</servlet-name>
+		<url-pattern>RoutePattern.html</url-pattern>
+	-->
+</web-app>

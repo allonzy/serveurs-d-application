@@ -1,0 +1,12 @@
+import javax.servlet.*;
+import java.io.*;
+import javax.servlet.http.*;
+public class RegisterServlet extends HttpServlet {
+
+	public void doPost(HttpServletRequest request,HttpServletResponse response) throws IOException{
+		if(name == ""){
+			name = request.getParameter("name");
+		}
+
+	}
+}

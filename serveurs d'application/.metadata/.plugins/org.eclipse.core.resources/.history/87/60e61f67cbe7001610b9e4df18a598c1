@@ -1,0 +1,15 @@
+import javax.servlet.*;
+import java.io.*;
+import javax.servlet.http.*;
+public class SaluteServlet extends HttpServlet {
+
+	public void doGet(HttpServletRequest request,HttpServletResponse response) throws IOException{
+		String name = request.getParameter("name");// Get a parameter from the request
+		PrintWriter writer = response.getWriter();
+		if(name != null){
+			writer.print("hello "+name);
+		}else{
+			writer.print("hello, whoever you are");
+		}
+	}
+}
